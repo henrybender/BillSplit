@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestBillSplit</string>
+    <string name="title_activity_food">FoodActivity</string>
+</resources>
