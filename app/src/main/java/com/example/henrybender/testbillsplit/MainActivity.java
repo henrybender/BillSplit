@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         addBillBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, AddPersonActivity.class);
+                Intent intent = new Intent(MainActivity.this, PersonTypeActivity.class);
                 Bundle data = new Bundle();
                 data.putString("billName", billName.getText().toString());
                 intent.putExtras(data);
